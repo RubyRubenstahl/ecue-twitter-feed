@@ -1,3 +1,9 @@
+#Webstorm
+.idea
+
+#ecue backup files
+.bak
+
 # Logs
 logs
 *.log
