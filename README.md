@@ -60,11 +60,13 @@ The programmer portion of the project uses e:script, which means that the softwa
 
 2. Set the *Bind IP Address* option to 127.0.0.1
 
-3. Import *twitterFeedReader.cpp* from the *ecue files* directory by opoening the *e:script Macros window* in Programmer and and clicking the *Import Macro* (yellow folder) button and selecting the file.
+3. Set the *Local Port* option to *9999*
 
-4. Run the script manually by selecting it and then pressing the *test macro* button (blue play button) at the top of the window.
+4. Import *twitterFeedReader.cpp* from the *ecue files* directory by opoening the *e:script Macros window* in Programmer and and clicking the *Import Macro* (yellow folder) button and selecting the file.
 
-5. Set the script to run automatically by adding an *Initialize* trigger rule in the triggering window with an Action of *Call Macro*, selecting the name of the macro from the dropdown list.
+5. Run the script manually by selecting it and then pressing the *test macro* button (blue play button) at the top of the window.
+
+6. Set the script to run automatically by adding an *Initialize* trigger rule in the triggering window with an Action of *Call Macro*, selecting the name of the macro from the dropdown list.
 
 ## Customizing the response to tweets
 By default, the included script prints out the tweet information to the logbook and advances *cuelist 1* every time it receives a tweet.
