@@ -44,7 +44,7 @@ In addition, the configuration file is also used to set the keywords and screen 
 6. Copy and paste the Consumer Key, Consumer Secret, Access Token, and Access Token Secret, into the corresponding fields in the JSON file (make sure they are within the quote marks, with no space between the keys and the quote marks). 
 
 7. Change the *usernames* and/or *keywords* fields to determine what the app will listen for. 
-	* Both keywards and user names are read as a comma-delmited list
+	* Both keywords and user names are read as a comma-delmited list
 	* The tweet will be sent to programmer if it comes from a listed username **or** it contains a listed keyword. 
 	* Keywords can include hashtags
 	* Usernames can be specified with or without the @ at the beginning of the name. 
